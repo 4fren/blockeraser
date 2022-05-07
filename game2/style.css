@@ -1,0 +1,134 @@
+.drag-and-drop{
+        top: 25%;
+        left: 25%;
+        user-select: none;
+        position: absolute;
+        margin: 0;
+        transition: linear 0.5s;
+        z-index: 1000;
+    }
+
+    body{
+        overflow: clip;
+        touch-action: none;
+        }
+
+    .blockDiv{
+        position: absolute;
+        user-select: none;
+    }
+
+    #div_others1{
+        margin-left: 1%;
+        user-select: none;
+        font-weight: bold;
+    }
+
+    #div_others2{
+        margin-left: 1%;
+        user-select: none;
+        font-weight: bold;
+    }
+
+    #totalScore{
+        user-select: none;
+    }
+
+    #timer{
+        user-select: none;
+    }
+
+    #multiplier{
+        user-select: none;
+    }
+
+    #combo{
+        user-select: none;
+    }
+
+    #div_limit{
+        display: flex;
+        height: 30px;
+    }
+
+    #div_score{
+        display: flex;
+        height: 30px;
+    }
+
+    #div_timer{
+        display: flex;
+        height: 30px;
+    }
+
+    #div_multiplier{
+        display: flex;
+        height: 30px;
+    }
+
+    #div_combo{
+        display: flex;
+        height: 30px;
+    }
+
+    #div_bestScore{
+        display: flex;
+        height: 30px;
+    }
+
+    #status{
+        user-select: none;
+        margin: 0;
+    }
+
+    #div_table{
+        display: flex;
+        margin-bottom: 0.5%;
+    }
+
+    #table1{
+        user-select: none;
+    }
+
+    #table2{
+        user-select: none;
+    }
+
+    td{
+        font-size: 5px;
+    }
+
+    .row{
+        height: 7.45%;
+        border: 1px solid;
+        padding: 0 0 0 0;
+        user-select: none;
+        margin: 0;
+    }
+
+    #start{
+        position: absolute;
+        user-select: none;
+        left: 20%;
+        top: 0.8%;
+        z-index: 1001;
+    }
+
+    #rule{
+        position: absolute;
+        user-select: none;
+        left: 30%;
+        top: 0.8%;
+        z-index: 1001;
+    }
+
+    #explanation{
+        position: absolute;
+        user-select: none;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        top:2%;
+        height: 95%;
+        visibility: hidden;
+    }
